@@ -1,0 +1,132 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 1rem;
+  padding: 0px;
+  margin: 0px;
+  line-height: 0;
+  font-family: 'Raleway', sans-serif;
+
+}
+h1 {
+  margin:0;
+  color:white;
+  text-align:center;
+}
+p {
+  font-size: inherit;
+  color:white;
+  position:relative;
+  top:30px;
+  right:30px;
+  text-align:right;
+}
+a{
+  text-decoration: none;
+}
+#nav{
+  height:70px;
+  width:100%;
+  background-color:#333333;
+  z-index:1;
+  margin:0 auto;
+  padding: 20px 40px ;
+}
+ul{
+  color:white;
+  margin:0;
+  text-align:left;
+}
+#nav ul li{
+  padding:20px;
+  display:inline;
+  font-size: 20px;
+  font-weight:thin;
+	line-height: 50px;
+
+}
+#nav ul li:hover{
+  font-weight: 900;
+  cursor:pointer;
+}
+
+
+#gameCanvas{
+  position:relative;
+  top:200px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:auto;
+  display:block;
+  border:12px solid black;
+}
+#main{
+    position:relative;
+    top:50px;
+    height:1080px;
+    background-image:url("../img/back.jpg") ;
+    background-size:cover;
+}
+#footer{
+  position:relative;
+  height:60px;
+  width:100%;
+  background-color:#333333;
+}
+
+
+button{
+  position:relative;
+  top:-500px;
+  left:720px;
+  border:;
+
+}
+button {
+  -moz-box-shadow: 0px 12px 14px -7px #276873;
+  -webkit-box-shadow: 0px 12px 14px -7px #276873;
+  box-shadow: 0px 12px 14px -7px #276873;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+  background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+  background-color:#599bb3;
+  -moz-border-radius:22px;
+  -webkit-border-radius:22px;
+  border-radius:22px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Courier New;
+  font-size:28px;
+  font-weight:bold;
+  padding:13px 32px;
+  text-decoration:none;
+  text-shadow:0px 2px 0px #3d768a;
+
+  position:relative;
+  top:-550px;
+  left:680px;
+
+}
+button:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+  background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+  background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+  background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+  background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+  background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+  background-color:#408c99;
+}
+button:active {
+  position:relative;
+  top:1px;
+}
